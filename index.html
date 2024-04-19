@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delayed Mirror</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.png" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <span class="navbar-title"
+        >Delayed Mirror - Developed by Aniket Karna</span
+      >
+      <span class="navbar-links"
+        ><a
+          href="https://crypticnumbers8.github.io/aniket_karna.github.io/"
+          target="_blank"
+          style="color: black"
+          >[My Portfolio]</a
+        ></span
+      >
+    </nav>
+    <div class="instructions">
+      <h2>Instructions on how to use this application:</h2>
+      <ol>
+        <li>
+          Select "Allow" when asked to use your cameras. (Full Screen Browser
+          Recommended)
+        </li>
+        <li>
+          Select delay time between 1-60 seconds, based on the move you want to
+          practice. (Default delay is 5 seconds)
+        </li>
+      </ol>
+    </div>
+    <p>
+      Delay:
+      <input id="delay" type="number" value="5" min="0" max="60" step="1" />
+      seconds &nbsp;&nbsp; <input id="mirror" type="checkbox" /><label
+        for="mirror"
+        >Mirror video</label
+      >
+    </p>
+
+    <video id="video" style="display: none"></video>
+
+    <div class="canvas-labels">
+      <label>Real Time Feed:</label>
+      <label>Delayed Clip:</label>
+    </div>
+
+    <div class="grid_2col">
+      <canvas id="canvas_in" style="width: 80%"></canvas>
+
+      <canvas id="canvas_out" style="width: 80%"></canvas>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-socials">
+        <a
+          href="https://crypticnumbers8.github.io/aniket_karna.github.io/"
+          target="_blank"
+          >Portfolio</a
+        >
+        <a href="https://github.com/CrypticNumbers8" target="_blank">Github</a>
+        <a href="https://www.instagram.com/aniketmagix/" target="_blank"
+          >Instagram</a
+        >
+        <a
+          href="https://www.youtube.com/channel/UCO78zhnGKAmzQ08BztgMYJQ"
+          target="_blank"
+          >YouTube</a
+        >
+        <a href="https://www.tiktok.com/@aniketmagix" target="_blank">TikTok</a>
+        <a href="https://www.aniketkarna.com" target="_blank">Website</a>
+      </div>
+      <div class="footer-copyright">
+        &copy; 2024 Aniket Karna. All Rights Reserved.
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

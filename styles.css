@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #48cae4;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+}
+
+.navbar-links a {
+  color: black;
+  text-decoration: none;
+}
+
+.instructions {
+  width: 80%;
+  margin: 20px auto;
+  padding: 5px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.instructions h2 {
+  margin-top: 0;
+}
+
+.grid_2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+video,
+canvas {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 0.3rem solid black;
+}
+
+.footer {
+  background-color: #48cae4;
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-copyright {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+/* Style for the delay and mirror input */
+p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+input[type='number'],
+input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+/* Styling for the checkbox label */
+label {
+  display: inline-block;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.canvas-labels {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-gap: 10px; /* Gap between columns */
+  text-align: center; /* Center align the labels */
+  margin-bottom: 10px;
+}
+
+.label {
+  padding: 5px;
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
