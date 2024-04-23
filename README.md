@@ -6,9 +6,9 @@ Link -  https://delayed-practice-mirror.netlify.app/
 
 This web application, developed by Aniket Karna, allows users to practice magic tricks by viewing a delayed video feed of themselves captured by their webcam. The application can be used to review and improve performances by providing a delayed playback option, useful for refining timing and presentation.
 
-##Instructions on how to use this application:
-* Select "Allow" when asked to use your cameras. (Full Screen Browser Recommended)
-* Select delay time between 1-60 seconds, based on the move you want to practice. (Default delay is 5 seconds)
+## Instructions on how to use this application:
+- *Select "Allow" when asked to use your cameras. (Full Screen Browser Recommended)
+- *Select delay time between 1-60 seconds, based on the move you want to practice. (Default delay is 5 seconds)
 
 ## Key Features
 - **Delayed Mirror**: Displays a delayed video feed of the user captured by their webcam.
