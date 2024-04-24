@@ -1,6 +1,3 @@
-
-
-
 # Delayed Mirror Web Application
 Link -  https://delayed-practice-mirror.netlify.app/
 
@@ -20,3 +17,8 @@ This web application, developed by Aniket Karna, allows users to practice magic 
 - **Webcam Capture**: Utilizes the webcam to capture real-time and delayed video feeds.
 - **User Interface Design**: Designed an intuitive interface for easy navigation and control.
 - **Video Playback**: Implemented video playback functionality for the delayed feed.
+
+
+
+https://github.com/CrypticNumbers8/Delayed-Practice-Mirror/assets/57065053/54963938-9a84-4b3b-8c1c-a54033ad14f8
+
